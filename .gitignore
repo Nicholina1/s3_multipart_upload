@@ -1,0 +1,42 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform plan files
+tfplan
+
+# .terraform directories (provider plugins)
+.terraform
+
+# Local override files (for example, for environment-specific config files)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+terraform_1.11.4_linux_amd64.zip
+
+# Terraform logs
+*.log
+
+# AWS credentials and config (optional if you're storing them in ~/.aws)
+.aws/
+
+*venv
+
+.idea
+
+# Deployment logs
+terraform_deploy.log
+
+credentials.json
+
+LESSONS.zip
+
+.terraform.lock.hcl
