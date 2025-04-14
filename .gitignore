@@ -37,6 +37,6 @@ terraform_deploy.log
 
 credentials.json
 
-LESSONS.zip
+test.zip 
 
 .terraform.lock.hcl
